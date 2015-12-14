@@ -1,0 +1,49 @@
+{
+  "assets": {
+    "player_spritesheet": { "type": "spritesheet", "source": "images/dude.png", "frame_width": 32, "frame_height": 48, "frames": 9,
+                            "margin": 0, "spacing": 0},
+    "platform": {"type": "image", "source": "images/platform.png"},
+    "background": {"type": "image", "source": "images/sky.png"},
+    "ninjastar": {"type": "image", "source": "images/ninjastar.png"},
+    "sword": {"type": "image", "source": "images/sword.png"}
+  },
+  "groups": [
+    "players",
+    "platforms",
+    "ninjastars1",
+    "ninjastars2"
+  ],
+  "players": {
+    "player1": {
+      "name": "player1",
+      "x": 10,
+      "y": 485,
+      "type": "player",
+      "properties": {
+        "walking_speed": 200,
+        "jumping_speed": 600,
+        "bouncing": 0,
+        "score": 0,
+        "group": "player1",
+        "texture": "player_spritesheet"
+      }
+    },
+    "player2": {
+      "name": "player2",
+      "x": 700,
+      "y": 350,
+      "type": "player",
+      "properties": {
+        "walking_speed": 200,
+        "jumping_speed": 600,
+        "bouncing": 0,
+        "score": 0,
+        "group": "players2",
+        "texture": "player_spritesheet"
+      }
+    }
+  },
+  "platforms": {
+
+  }
+}
