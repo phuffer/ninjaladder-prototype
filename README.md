@@ -6,3 +6,4 @@ This is a prototype of Ninja Ladder, a fast paced competetive game, written in J
 - NodeJS
 - SocketIO
 - PhaserJS
+- Brunch task manager
